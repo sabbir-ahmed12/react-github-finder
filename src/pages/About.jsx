@@ -15,8 +15,12 @@ const About = () => {
         </strong>
         .
       </p>
-      <p className="text-lg text-gray-400">
-        Version <span className="text-white">1.0.0</span>
+      <p className="text-lg font-semibold text-gray-400 mb-4 ">
+        Version: <span className="text-white">1.1.0</span>
+      </p>
+      <p className="text-lg font-semibold">Contribution:</p>
+      <p className="text-lg font-light">
+        Managed the global state using Context API instead of useReducer.
       </p>
     </div>
   );
